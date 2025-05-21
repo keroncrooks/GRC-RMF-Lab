@@ -9,7 +9,7 @@ This lab demonstrates a simplified NIST RMF assessment for a fictional HR system
 
 ## System Profile:
 - **Name**: CloudHR
-- **Description**: A cloud-based HR platform for employee onboarding and payroll
+- **Description**: A cloud-based HR platform for employee onboarding, payroll, SSN and health data.
 - **Impact Level**: Moderate (based on FIPS 199 analysis)
 
 This content is designed to showcase foundational GRC knowledge for cybersecurity roles.
