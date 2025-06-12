@@ -1,0 +1,4 @@
+POAM ID,Risk ID,System,Control ID,Weakness Description,Planned Milestone,Planned Completion Date,Responsible Party,Resources Required,Current Status
+POAM-001,R-001,ACME Cloud Platform,AC-2,"User accounts are not reviewed quarterly, increasing the risk of orphaned accounts.",Design and implement automated access review workflow.,2025-06-20,Security Team,"IAM tool configuration, staff training",Open
+POAM-002,R-002,Vendor Document Portal,SC-12,"Data at rest is not encrypted, exposing sensitive files to potential breach.",Enable volume-level encryption using AES-256.,2025-06-30,IT Operations,"Encryption software, downtime window",In Progress
+POAM-003,R-003,Third-Party HR Platform,RA-5,No scheduled vulnerability scanning could allow undetected threats.,Schedule monthly vulnerability scans and integrate with ticketing system.,2025-07-15,GRC Team,"Scanner license, integration scripts",Planned
