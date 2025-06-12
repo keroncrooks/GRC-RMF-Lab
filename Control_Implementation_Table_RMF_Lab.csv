@@ -1,0 +1,4 @@
+Control ID,Control Name,System,Responsible Party,Control Implementation,Implementation Evidence,Status
+AC-2,Account Management,ACME Cloud Platform,Security Team,Accounts are provisioned via centralized IAM. Quarterly reviews are scheduled. Deprovisioning automated via HRIS sync.,"IAM policy, quarterly audit reports, deprovision logs",Implemented
+SC-12,Cryptographic Key Establishment,Vendor Document Portal,IT Operations,All volumes are encrypted with AES-256. Keys are managed through KMS with access logging and key rotation enabled.,"Encryption config screenshots, KMS audit logs",In Progress
+RA-5,Vulnerability Monitoring and Scanning,Third-Party HR Platform,GRC Team,Monthly scans are scheduled using Nessus. Findings are logged and remediated in JIRA.,"Scan schedule, sample reports, remediation tickets",Planned
