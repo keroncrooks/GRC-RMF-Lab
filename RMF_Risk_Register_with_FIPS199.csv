@@ -1,4 +1,0 @@
-Risk ID,System,Control Family,Control ID,Risk Description,Likelihood,Impact,Risk Level,Mitigation Plan,Status,Owner,Target Resolution Date,Confidentiality,Integrity,Availability
-R-001,ACME Cloud Platform,AC - Access Control,AC-2,User accounts not reviewed quarterly,Medium,High,High,Implement quarterly access reviews; automate alerts,Open,Security Team,2025-07-01,Moderate,Moderate,Low
-R-002,Vendor Document Portal,SC - System and Communications Protection,SC-12,Data at rest not encrypted,High,High,Critical,Encrypt storage volumes using AES-256; update policy,In Progress,IT Operations,2025-06-30,High,High,Moderate
-R-003,Third-Party HR Platform,RA - Risk Assessment,RA-5,No routine vulnerability scans performed,Medium,Medium,Medium,Schedule monthly vulnerability scans and patch tracking,Planned,GRC Team,2025-07-15,Low,Moderate,Moderate
