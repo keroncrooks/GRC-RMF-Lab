@@ -1,0 +1,4 @@
+System,Confidentiality,Integrity,Availability
+ACME Cloud Platform,Moderate,Moderate,Low
+Vendor Document Portal,High,High,Moderate
+Third-Party HR Platform,Low,Moderate,Moderate
