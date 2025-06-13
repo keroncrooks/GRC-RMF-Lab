@@ -1,0 +1,7 @@
+Step #,Workflow Step,Tools/Platforms (Suggested),Automation Status
+1,Vendor submits intake form (online or via secure portal),"SharePoint Forms, ServiceNow, PowerApps","Manual today, automation recommended"
+2,System auto-assigns risk tier based on use case & data sensitivity,"Power Automate logic, ServiceNow workflows","Not implemented, but logic is documentable"
+3,"Required documentation auto-requested (SIG, SOC 2, IRP, etc.)","Email triggers, checklist templates","Partial (template exists, but not automated)"
+4,Entry auto-created in central risk register (status = 'In Progress'),"Excel/SharePoint list, OneTrust register","Manual entry, can be auto-populated"
+5,System sends reminders for missing or overdue items,"Power Automate alerts, Outlook reminders","Not used, potential quick win"
+6,"Analyst reviews, scores risk, and escalates if needed",Manual review with checklist; log results,Manual step (intended to stay human-led)
