@@ -8,7 +8,7 @@ This GitHub lab simulates a third-party cybersecurity risk management process mo
 
 ## 📁 Included Files (In Workflow Order)
 
-### 1. `FIPS199_Only_With_Rationale_And_Examples.csv`
+### 1. `FIPS199_Only.csv`
 Establishes the foundation for all risk decisions by categorizing information types according to FIPS 199 (Confidentiality, Integrity, Availability). Each row includes a rationale and example for its impact rating, which guides all follow-on control selection and risk analysis.
 
 ### 2. `Risk_Register_Only.csv`
