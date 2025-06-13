@@ -1,53 +1,60 @@
-# 🛡️ RMF GRC Lab – Third-Party Risk Management
+[README.md](https://github.com/user-attachments/files/20725948/README.md)
 
-This repository showcases a practical application of the NIST Risk Management Framework (RMF) with a focus on Third-Party Risk Management (TPRM). It includes artifacts commonly used in Governance, Risk, and Compliance (GRC) programs, especially within federal environments aligned with FISMA, FedRAMP, and ISO 27001.
+# RMF-Based Third Party Risk Management Lab
 
-## 📁 Files Included
-
-- **RMF_Risk_Register_with_FIPS199.csv**  
-  A risk register that documents identified cybersecurity risks along with impact categorizations (Confidentiality, Integrity, Availability) based on FIPS 199.
-
-- **POAM_RMF_GRC_Lab.csv**  
-  A sample Plan of Action & Milestones (POA&M) tracking mitigation strategies, responsible parties, and remediation timelines.
-
-- **Control_Implementation_Table_RMF_Lab.csv**  
-  A Control Implementation Table (CIT) outlining how specific NIST 800-53 controls are implemented across systems.
-
-## 📌 Frameworks Referenced
-
-- **NIST SP 800-53 Rev. 5** – Security and Privacy Controls for Federal Information Systems  
-- **FIPS 199** – Standards for Categorizing Information and Information Systems  
-- **FedRAMP** – Cloud-specific security baseline based on NIST  
-- **ISO/IEC 27001** – International standard for information security management systems  
-- **FAIR** – Quantitative model for risk analysis (not shown here, but complementary)
-
-## 🧪 Lab Use Case
-
-This lab simulates the evaluation of third-party systems integrated into a federal environment, tracking:
-- Initial risk identification
-- Tiering based on sensitivity and impact
-- Gap analysis using NIST 800-53
-- Mitigation tracking via POA&M
-- System-level control implementation documentation
-
-## 🧠 Ideal For
-
-- GRC Analysts
-- Security Control Assessors (SCA)
-- RMF Engineers
-- Cybersecurity Risk Professionals
-- Anyone building a practical GitHub portfolio in cybersecurity
-
-## ✅ Next Steps (Optional Additions)
-
-- System Security Plan (SSP) Sample
-- Security Assessment Plan (SAP)
-- Continuous Monitoring Strategy
-- Risk Reporting Dashboard
+This GitHub lab simulates a third-party cybersecurity risk management process modeled after NIST RMF (Risk Management Framework) principles. It walks through a full lifecycle: from impact categorization to risk tracking, remediation, control implementation, and process automation.
 
 ---
 
-> 📬 Questions or feedback? Feel free to open an issue or submit a PR.
+## 📁 Included Files (In Workflow Order)
 
-[README_RMF_GRC_Lab.md](https://github.com/user-attachments/files/20710317/README_RMF_GRC_Lab.md)
-[README_RMF_GRC_Lab.md](https://github.com/user-attachments/files/20710317/README_RMF_GRC_Lab.md)
+### 1. `FIPS199_Only_With_Rationale_And_Examples.csv`
+Establishes the foundation for all risk decisions by categorizing information types according to FIPS 199 (Confidentiality, Integrity, Availability). Each row includes a rationale and example for its impact rating, which guides all follow-on control selection and risk analysis.
+
+### 2. `Risk_Register_Only.csv`
+Captures individual risk entries tied to third-party activities, SIG responses, or control gaps. Fields include risk level, description, mitigation strategy, and ownership — enabling prioritization and integration into ongoing reviews.
+
+### 3. `POAM_RMF_GRC_Lab.csv`
+Maps risks from the register into active remediation plans. Includes target resolution dates, responsible parties, and current status. Useful for governance meetings, audit trails, and tracking open control gaps.
+
+### 4. `Control_Implementation_Table_RMF_Lab.csv`
+Maps selected and tailored NIST 800-53 controls to the categorized system. Shows implementation rationale, control owners, and supporting evidence. Useful for SSP development or ATO preparation.
+
+### 5. `IRS_Third_Party_Risk_Workflow_Automation_Template.csv`
+Outlines a proposed automated workflow for third-party intake and assessment using tools like SharePoint, Power Automate, or ServiceNow. Focuses on automating intake, tiering, document requests, and reminders to reduce manual burden and improve consistency.
+
+---
+
+## ✅ Purpose of This Lab
+
+- Demonstrate how to implement a GRC-aligned third-party risk workflow from start to finish.
+- Showcase familiarity with FIPS 199, NIST 800-53, POA&M handling, and automation planning.
+- Simulate work typical of roles supporting FedRAMP, CMMC, or enterprise-level RMF programs.
+
+---
+
+## 📌 Frameworks & Standards Used
+
+- NIST SP 800-53 Rev. 5
+- NIST SP 800-30
+- FIPS 199
+- RMF (Risk Management Framework)
+- POA&M documentation standards (FedRAMP-style)
+
+---
+
+## 🧠 Key Skills Demonstrated
+
+- FIPS 199 impact categorization with rationale
+- Risk register creation and risk-to-control traceability
+- POA&M documentation and remediation tracking
+- NIST control selection and tailoring
+- Automation design for third-party workflows
+- Evidence preparation for audits and ATOs
+
+---
+
+## 🗂️ For Reviewers
+
+This lab is a simulation and does not reflect real vendor data. It is designed to showcase initiative, practical RMF alignment, and documentation quality expected in GRC-focused roles.
+
